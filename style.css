@@ -1,0 +1,325 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+section {
+    background-color: white;
+}
+
+.hero {
+    background-color:black;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #nav-list{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 12px;
+}*/
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #ef744b;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo {
+    height: 200px;
+    font-size: large;
+    background-color: black;
+    margin: 30px;
+}
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    background-color:rgb(173, 186, 187);
+}
+
+
+
+
+
+
+.skill-sec{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+
+}
+.code-skill-description{
+
+    margin-left: 40px;
+}
+.code-img{
+    width: 30%;
+    border-radius: 60px;
+    float: left;
+    margin-right: 60px;
+}
+.lap-img{
+    width: 30%;
+    border-radius: 60px;
+    float: right;
+    margin-right: 60px;
+}
+.laptop-img{
+    width: 30%;
+    border-radius: 60px;
+    float: left;
+    margin-left: 60px;
+    border-radius: 90px;
+}
+.project-link{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+    margin-left: 80px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image1 {
+    margin-top: 10px;
+    width: 250px;
+    border-radius: 95px;
+}
+.project-image2 {
+    margin-top: 10px;
+    width: 250px;
+    height: 450px;
+    border-radius: 95px;
+}
+
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link{
+    background-color: brown;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height:1.15;
+}
+
+
+
+
+
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #2b2c38;
+        margin: 0px;
+    }
+
+    /*ul.show {
+        display: block;
+    }*/
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #2b2c38;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .information {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+.code-row{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+
+}
+.coding-profile{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height:1.15;
+}
+.code-link{
+    text-align: center;
+
+}
+
+.cont{
+    font-size: 25px;
+}
+
+
